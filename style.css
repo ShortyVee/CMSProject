@@ -11,3 +11,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 */
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+
+.footer-middle {
+ text-align: center;
+}
+ 
+.site {
+margin:0px;
+}
+
+#main {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
