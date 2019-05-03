@@ -2,17 +2,11 @@
 			
 			<div id="content" class="clearfix row">
 			
-				<div id="main" class="col-sm-8 clearfix" role="main">
+				<div id="main" class="text-center clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-						
-						<header>
-							
-							
-						
-						</header> <!-- end article header -->
 					
 						<section class="post_content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>

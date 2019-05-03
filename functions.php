@@ -707,4 +707,13 @@ function wp_bootstrap_filter_ptags_on_images( $content ){
 }
 add_filter( 'the_content', 'wp_bootstrap_filter_ptags_on_images' );
 
+/**
+ * Enqueue scripts and styles.
+ */
+function wp_bootstrap_scripts() {
+  wp_enqueue_script('cms-project-remove-sticky-footer', get_theme_file_uri('/js/remove-sticky-footer.js'), array(), '1.0', TRUE);
+}
+
+add_action( 'wp_enqueue_scripts', 'wp_bootstrap_scripts' );
+
 ?>

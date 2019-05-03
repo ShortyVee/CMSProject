@@ -67,4 +67,4 @@
 		
 		</header> <!-- end header -->
 		
-		<div class="container">
+		<div class="container content-wrapper">
