@@ -29,15 +29,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .container-fluid {
     margin-top: 20em;
 }
-
-/*tests*/
-/* Footer */
-section {
-    padding: 60px 0;
+.footer-bottom {
+    margin-top: 25em;
 }
-
+/* Footer */
 #footer {
-    background: #007b5e !important;
+    padding: 60px 0;
+    padding-bottom: 2em;
+    background: #004d7b !important;
 }
 #footer h2{
 	padding-left: 10px;
@@ -100,5 +99,6 @@ section {
     color:#ffffff;
     }
 }
-
-/*end tests*/
+.footer-middle {
+    color:#ffffff;
+}
