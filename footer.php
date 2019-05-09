@@ -19,7 +19,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h2>Contact us</h2>
+					<h2 class="border-right">Contact us</h2>
 					<div class="bottomMenu">
 						<?php wp_nav_menu( array( 'menu' => 'contactUs')); ?>
 					</div>

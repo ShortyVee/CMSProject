@@ -101,6 +101,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
     margin-right: 3px;
 }
 
+.border-right {
+    border-right: 3px solid #eeeeee;
+}
+
 
 @media (max-width:767px){
 	#footer h2 {
