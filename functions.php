@@ -101,6 +101,13 @@ function wp_bootstrap_footer_links() {
   );
 }
 
+//Custom menu script
+function print_menu_shortcode($atts, $content = null) { 
+  extract(shortcode_atts(array( 'name' => null, ), $atts));
+  return wp_nav_menu( array( 'menu' => $name, 'echo' => false ) ); 
+  } 
+  add_shortcode('menu', 'print_menu_shortcode');
+
 // this is the fallback for header menu
 function wp_bootstrap_main_nav_fallback() { 
   /* you can put a default here if you like */ 

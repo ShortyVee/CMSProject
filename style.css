@@ -76,7 +76,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 	padding: 3px 0;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+    transition: .5s all ease;
 }
 #footer ul.quick-links li:hover{
 	padding: 3px 0;
@@ -90,6 +90,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
     font-weight: 700;
 }
 
+.bottomMenu ul {
+    list-style: none;
+}
+
+.bottomMenu ul li::before { 
+    content: "\f101"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    color: white;
+    margin-right: 3px;
+}
+
+
 @media (max-width:767px){
 	#footer h2 {
     padding-left: 0;
@@ -102,3 +114,4 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .footer-middle {
     color:#ffffff;
 }
+

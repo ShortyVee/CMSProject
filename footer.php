@@ -8,28 +8,21 @@
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h2>Quick links</h2>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>News</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Stories</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
-					</ul>
+					<div class="bottomMenu">
+						<?php wp_nav_menu( array( 'theme_location' => 'footer_links') ); ?>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h2>Libraries ACT</h2>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Email</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Archive Collection</a></li>
-					</ul>
+					<div class="bottomMenu">
+						<?php wp_nav_menu( array( 'menu' => 'libraries')); ?>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h2>Contact us</h2>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get In Touch</a></li>
-						<li><a href="https://www.library.act.gov.au/functions/footer-pages/contact-us" title="link"><i class="fa fa-angle-double-right"></i>Library.act.gov.au</a></li>
-					</ul>
+					<div class="bottomMenu">
+						<?php wp_nav_menu( array( 'menu' => 'contactUs')); ?>
+					</div>
 				</div>
 			</div>
 		      <hr>	
@@ -43,7 +36,7 @@
             ACT Heritage Library Manuscripts Collection </a></p>
         </p>
 				</div>
-				</hr>
+				<hr>
 			</div>	
 		</div>
 	</section>
