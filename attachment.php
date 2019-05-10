@@ -18,9 +18,9 @@
 					
 						<section class="post_content clearfix" itemprop="articleBody">
 							
-							<?php the_content(); ?>
+							<?php echo the_content(); ?>
 							<?php echo wp_get_attachment_image( get_the_ID(), 'large'); ?>
-							<?php echo wp_get_attachment_metadata(); ?>
+							<?php the_excerpt(); ?>
 							
 						</section> <!-- end article section -->
 						
