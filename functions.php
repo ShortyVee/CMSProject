@@ -649,6 +649,28 @@ function wp_bootstrap_related_posts() {
   echo '</ul>';
 }
 
+
+function my_recent_posts_shortcode($atts){
+  $q = new WP_Query(
+    array( 'orderby' => 'date', 'posts_per_page' => '4')
+  );
+ 
+ $list = '<ul class="recent-posts">';
+ 
+ while($q->have_posts()) : $q->the_post();
+ 
+  $list .= '<li>' . get_the_date() . '<a href="' . get_permalink() . '">' . get_the_title() . '</a>' . '<br />' . get_the_excerpt() . '</li>';
+ 
+ endwhile;
+ 
+ wp_reset_query();
+ 
+ return $list . '</ul>';
+ 
+ }
+ 
+ add_shortcode('recent-posts', 'my_recent_posts_shortcode');
+
 // Numeric Page Navi (built into the theme by default)
 function wp_bootstrap_page_navi($before = '', $after = '') {
   global $wpdb, $wp_query;
