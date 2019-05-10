@@ -119,6 +119,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
     color:#ffffff;
 }
 /* Navbar new styles*/
+
+.navbar-default {
+    border: none;
+    border-color: none !important;
+}
+
 .navbar-fixed-top {
     padding: 2em;
     background-color: #303435;
