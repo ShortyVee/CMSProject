@@ -639,7 +639,7 @@ function wp_bootstrap_related_posts() {
         $related_posts = get_posts($args);
         if($related_posts) {
           foreach ($related_posts as $post) : setup_postdata($post); ?>
-              <li class="related_post"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a><p> <?php get_the_excerpt(); ?></p></li>
+              <li class="related_post"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
           <?php endforeach; } 
       else { ?>
             <li class="no_related_post">No Related Posts Yet!</li>
@@ -659,7 +659,7 @@ function my_recent_posts_shortcode($atts){
  
  while($q->have_posts()) : $q->the_post();
  
-  $list .= '<li>' . get_the_date() . '<a href="' . get_permalink() . '">' . get_the_title() . '</a>' . '<br />' . get_the_excerpt() . '</li>';
+  $list .= '<li>' . '<a href="' . get_permalink() . '">' . get_the_title() . '</a>' . get_the_date() . '<br />' . '<p class="post-description-text">' . get_the_excerpt() . '</p>' . '</li>';
  
  endwhile;
  
