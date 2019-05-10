@@ -138,3 +138,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #8793af;
 }
+
+.jumbotron h1 {
+    color: white;
+    text-shadow: #112d69 1px 0 10px;
+}
