@@ -20,6 +20,7 @@
 							
 							<?php the_content(); ?>
 							<?php echo wp_get_attachment_image( get_the_ID(), 'large'); ?>
+							<?php echo wp_get_attachment_metadata(); ?>
 							
 						</section> <!-- end article section -->
 						
