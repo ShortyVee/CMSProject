@@ -159,6 +159,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 }
 
 /* Elementor dev site */
+/* Index page */
 .elementor-149 .elementor-element.elementor-element-5b37f631:not(.elementor-motion-effects-element-type-background), .elementor-149 .elementor-element.elementor-element-5b37f631 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
  margin-bottom: -30em;   
+}
+
+/* About page */
+.elementor-92 .elementor-element.elementor-element-6f7dbbea:not(.elementor-motion-effects-element-type-background), .elementor-92 .elementor-element.elementor-element-6f7dbbea > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+ margin-bottom: -30em;
 }
