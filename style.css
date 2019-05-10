@@ -37,7 +37,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
     padding: 60px 0;
     padding-bottom: 2em;
     background: #303435 !important;
-    margin-top: -30em;
+    /*margin-top: -30em; */
 }
 #footer h2{
 	padding-left: 10px;
@@ -156,4 +156,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .jumbotron h1 {
     color: white;
     text-shadow: #112d69 1px 0 10px;
+}
+
+/* Elementor dev site */
+.elementor-149 .elementor-element.elementor-element-5b37f631:not(.elementor-motion-effects-element-type-background), .elementor-149 .elementor-element.elementor-element-5b37f631 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+ margin-bottom: -30em;   
 }
