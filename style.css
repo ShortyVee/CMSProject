@@ -151,3 +151,8 @@
  .uncenter {
      text-align: left !important;
 }
+
+/* Gallery iamges */
+.elementor-97 .elementor-element.elementor-element-21d9d854:not(.elementor-motion-effects-element-type-background), .elementor-97 .elementor-element.elementor-element-21d9d854 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    margin-bottom: -30em;
+}
