@@ -78,6 +78,19 @@
  #footer ul.quick-links li:hover a i {
      font-weight: 700;
 }
+
+.posts-block {
+    text-align: left;
+}
+
+.posts-block ul {
+    list-style: none;
+}
+
+.posts-block li {
+    font-size: 2.3em;
+}
+
  .bottomMenu ul {
      list-style: none;
 }
