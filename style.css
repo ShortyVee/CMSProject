@@ -168,3 +168,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .elementor-92 .elementor-element.elementor-element-2f9952f:not(.elementor-motion-effects-element-type-background), .elementor-92 .elementor-element.elementor-element-2f9952f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
  margin-bottom: -30em;
 }
+
+/* Contact form *//*
+.wpforms-one-half  {
+    float: left;
+    color: red;
+}
+
+.wpforms-first {
+    color: red;
+} */
+
+.wpforms-field-label {
+    float: left;
+    padding; 1em;
+}
