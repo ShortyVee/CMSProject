@@ -1,178 +1,156 @@
-/*
-Theme Name: Back-end WebDev Custom Theme
-Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
-Version: 3.3.1
-Author: UC Students
-Author URI: http://example.com
-Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
-License: GNU General Public License v2.0 & Apache License 2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
-*/
-
+/* Theme Name: Back-end WebDev Custom Theme Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel. Version: 3.3.1 Author: UC Students Author URI: http://example.com Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options License: GNU General Public License v2.0 & Apache License 2.0 License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0 */
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
 /* font awesome link */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-.gallery-caption {
-  font-style: italic;
-  font-size: 1rem;
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ .gallery-caption {
+     font-style: italic;
+     font-size: 1rem;
 }
-.footer {
-  background-color: #eee;
-  margin-bottom: 0;
+ .footer {
+     background-color: #eee;
+     margin-bottom: 0;
 }
-
-.inner-footer {
-  padding: 15px 0;
+ .inner-footer {
+     padding: 15px 0;
 }
-
 /* Footer bug fix on refresh */
-.container-fluid {
-    margin-top: 20em;
+ .container-fluid {
+     margin-top: 20em;
 }
-.footer-bottom {
-    margin-top: 25em;
+ .footer-bottom {
+     margin-top: 25em;
 }
 /* Footer */
-#footer {
-    padding: 60px 0;
-    padding-bottom: 2em;
-    background: #303435 !important;
-    /*margin-top: -30em; */
+ #footer {
+     padding: 60px 0;
+     padding-bottom: 2em;
+     background: #303435 !important;
+    /*margin-top: -30em;
+     */
 }
-#footer h2{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
+ #footer h2{
+     padding-left: 10px;
+     border-left: 3px solid #eeeeee;
+     padding-bottom: 6px;
+     margin-bottom: 20px;
+     color:#ffffff;
 }
-#footer a {
-    color: #ffffff;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+ #footer a {
+     color: #ffffff;
+     background-color: transparent;
+     -webkit-text-decoration-skip: objects;
      text-decoration: underline !important;
 }
-#footer ul.social li{
-	padding: 3px 0;
+ #footer ul.social li{
+     padding: 3px 0;
 }
-#footer ul.social li a i {
-    margin-right: 5px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+ #footer ul.social li a i {
+     margin-right: 5px;
+     font-size:25px;
+     -webkit-transition: .5s all ease;
+     -moz-transition: .5s all ease;
+     transition: .5s all ease;
 }
-#footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+ #footer ul.social li:hover a i {
+     font-size:30px;
+     margin-top:-10px;
 }
-#footer ul.social li a,
-#footer ul.quick-links li a{
-	color:#ffffff;
+ #footer ul.social li a, #footer ul.quick-links li a{
+     color:#ffffff;
 }
-#footer ul.social li a:hover{
-	color:#eeeeee;
+ #footer ul.social li a:hover{
+     color:#eeeeee;
 }
-#footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-    transition: .5s all ease;
+ #footer ul.quick-links li{
+     padding: 3px 0;
+     -webkit-transition: .5s all ease;
+     -moz-transition: .5s all ease;
+     transition: .5s all ease;
 }
-#footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
+ #footer ul.quick-links li:hover{
+     padding: 3px 0;
+     margin-left:5px;
+     font-weight:700;
 }
-#footer ul.quick-links li a i{
-	margin-right: 5px;
+ #footer ul.quick-links li a i{
+     margin-right: 5px;
 }
-#footer ul.quick-links li:hover a i {
-    font-weight: 700;
+ #footer ul.quick-links li:hover a i {
+     font-weight: 700;
 }
-
-.bottomMenu ul {
-    list-style: none;
+ .bottomMenu ul {
+     list-style: none;
 }
-
-.bottomMenu ul li::before { 
-    content: "\f101"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
-    color: white;
-    margin-right: 3px;
+ .bottomMenu ul li::before {
+     content: "\f101";
+    /* FontAwesome Unicode */
+     font-family: FontAwesome;
+     color: white;
+     margin-right: 3px;
 }
-
-.border-right {
-    border-right: 3px solid #eeeeee;
+ .border-right {
+     border-right: 3px solid #eeeeee;
 }
-
-
-@media (max-width: 767px){
-	#footer h2 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-    color:#ffffff;
+ @media (max-width: 767px){
+     #footer h2 {
+         padding-left: 0;
+         border-left: transparent;
+         padding-bottom: 0px;
+         margin-bottom: 10px;
+         color:#ffffff;
     }
 }
-.footer-middle {
-    color:#ffffff;
+ .footer-middle {
+     color:#ffffff;
 }
 /* Navbar new styles*/
-
-.navbar-default {
-    border: none;
-    border-color: none !important;
+ .navbar-default {
+     border: none;
+     border-color: none !important;
 }
-
-.navbar-fixed-top {
-    padding: 2em;
-    background-color: #303435;
-    padding-bottom: 3.2em;
-
+ .navbar-fixed-top {
+     padding: 2em;
+     background-color: #303435;
+     padding-bottom: 3.2em;
 }
-.navbar-nav>li>a {
-    font-size: 1.5em;
-    color: white !important;
-    text-decoration: underline;
+ .navbar-nav>li>a {
+     font-size: 1.5em;
+     color: white !important;
+     text-decoration: underline;
 }
-
-@media screen and (max-width: 1200px) {
-    .navbar-nav>li>a {
-     font-size: 1em;   
+ @media screen and (max-width: 1200px) {
+     .navbar-nav>li>a {
+         font-size: 1em;
     }
 }
-
-.navbar-brand {
-    font-size: 1.7em;
-    color: white !important;
+ .navbar-brand {
+     font-size: 1.7em;
+     color: white !important;
 }
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #8793af;
+ @media screen and (max-width: 330px) {
+     .navbar-brand {
+         font-size: 1.2em;
+    }
 }
-
-.jumbotron h1 {
-    color: white;
-    text-shadow: #112d69 1px 0 10px;
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+     background-color: #8793af;
 }
-
+ .jumbotron h1 {
+     color: white;
+     text-shadow: #112d69 1px 0 10px;
+}
 /* Elementor dev site */
 /* Index page */
-.elementor-149 .elementor-element.elementor-element-5b37f631:not(.elementor-motion-effects-element-type-background), .elementor-149 .elementor-element.elementor-element-5b37f631 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
- margin-bottom: -30em;   
+ .elementor-149 .elementor-element.elementor-element-5b37f631:not(.elementor-motion-effects-element-type-background), .elementor-149 .elementor-element.elementor-element-5b37f631 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+     margin-bottom: -30em;
 }
-
 /* About page */
-.elementor-92 .elementor-element.elementor-element-2f9952f:not(.elementor-motion-effects-element-type-background), .elementor-92 .elementor-element.elementor-element-2f9952f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
- margin-bottom: -30em;
+ .elementor-92 .elementor-element.elementor-element-2f9952f:not(.elementor-motion-effects-element-type-background), .elementor-92 .elementor-element.elementor-element-2f9952f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+     margin-bottom: -30em;
 }
-
-.uncenter {
-    text-align: left !important;
+ .uncenter {
+     text-align: left !important;
 }
-
-.elementor-section.elementor-section-boxed>.elementor-container {
-    margin-top: -4em; 
+ .elementor-section.elementor-section-boxed>.elementor-container {
+     margin-top: -4em;
 }
