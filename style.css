@@ -169,17 +169,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
  margin-bottom: -30em;
 }
 
-/* Contact form *//*
-.wpforms-one-half  {
-    float: left;
-    color: red;
+.uncenter {
+    text-align: none !important;
 }
-
-.wpforms-first {
-    color: red;
-} */
-/*
-.wpforms-field-label {
-    float: left;
-    padding; 1em;
-}*/
